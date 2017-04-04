@@ -7,8 +7,8 @@ X = np.array([])
 N = 64
 k0 = 7
 
-x = np.exp(1j * 2 * np.pi * k0 / N * np.arange(N))  // this is for complex sinewave
-# x = np.cos(2 * np.pi * k0 /N * np.arange(N)) 
+# x = np.exp(1j * 2 * np.pi * k0 / N * np.arange(N))  // this is for complex sinewave
+x = np.cos(2 * np.pi * k0 /N * np.arange(N)) 
 #  for sinusoid signal
 for k in range(N):
     s = np.exp(1j * 2 * np.pi * k / N * np.arange(N))
